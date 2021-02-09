@@ -1,0 +1,110 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding:0;
+    
+}
+h1{
+    font-size: 50px;
+}
+section{
+    height: 500px;
+    padding: 0px 20px 20px 20px;
+    margin-bottom: 20px;
+    
+}
+
+p{
+    text-align: justify;
+    color: gray;
+}
+
+/*=========== Top-Banner============*/
+.top-banner{
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    
+    float: right;
+    
+}
+
+.hero-two img{
+    width: 100%;
+}
+
+.name_highlight{
+    color: orange;
+}
+.hero-one{
+    width: 60%;
+    float: left;
+
+}
+.hero-two{
+    width: 40%;
+    float: left;
+    
+}
+
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+.button:hover{
+    background-image: linear-gradient(90deg, tomato, lightSalmon);
+    color: blue;
+}
+
+
+h2{
+    font-size: 40px;
+}
+.helight{
+    color: tomato;
+}
+
+/*===========Middel Banner============*/
+
+
+.hero-three{
+    width: 40%;
+    float: left;
+}
+
+.hero-four{
+    width: 60%;
+    float: right;
+   
+    
+}
+
+.middel-banner{
+    height: 500px;
+    
+
+}
+
+.hero-three img{
+    width: 100%;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.three-h{
+    padding-left: 30px;
+    margin-top: 0;
+}
+
+
