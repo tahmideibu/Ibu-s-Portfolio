@@ -107,4 +107,32 @@ h2{
     margin-top: 0;
 }
 
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .hero-one {
+      width: 100%;
+      padding: 0;
+    }
+    
+    .hero-two {
+      width: 100%;
+      padding: 0;
+    }
+    .hero-three{
+        width: 100%;
+        padding: 0;
+    }
+    .hero-four{
+        width: 100%;
+        padding: 0;
+    }
+    
+  }
 
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .hero-one, .hero-two, .hero-three, .hero-four {
+      width: 100%;
+      padding: 0;
+    }
+  }
